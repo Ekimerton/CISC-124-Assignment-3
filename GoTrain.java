@@ -6,9 +6,21 @@ public class GoTrain extends Vehicle {
     this.setID("");
   }
 
-  public GoTrain (int u, int c, int i){
+  public GoTrain (int u, String i, int c){
     this.setUnitNumber(u);
     this.setCapacity(c);
-    this.setID("G" + i);
+    this.setID(i);
+  }
+
+  public GoTrain(String info){
+    int unitNumber = Integer.parseInt(info.substring(0, info.indexOf(",")));
+    info = info.substring(info.indexOf(",") + 1);
+    String id = info.substring(0, info.indexOf(","));
+    info = info.substring(info.indexOf(",") + 1);
+    int capacity = Integer.parseInt(info);
+
+    this.setUnitNumber(unitNumber);
+    this.setCapacity(capacity);
+    this.setID(id);
   }
 }
