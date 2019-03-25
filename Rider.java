@@ -5,6 +5,8 @@ public class Rider{
   private int hour = -1;
   private String date = "yyyymmdd";
 
+  private float personCount = 3.0f;
+
   public Rider(){
     id = "-1";
   }
@@ -20,7 +22,7 @@ public class Rider{
   public Rider(String info){
     String id = info.substring(0, info.indexOf(","));
     info = info.substring(info.indexOf(",") + 1);
-    char transport = (substring(0, info.indexOf(","))).charAt(0);
+    char transport = (info.substring(0, info.indexOf(","))).charAt(0);
     info = info.substring(info.indexOf(",") + 1);
     char age = (info.substring(0, info.indexOf(","))).charAt(0);
     info = info.substring(info.indexOf(",") + 1);
@@ -32,7 +34,15 @@ public class Rider{
     this.setTransport(transport);
     this.setAge(age);
     this.setHour(hour);
-    this.setDate(date)
+    this.setDate(date);
+
+    if(age == 'C'){
+      this.setPersonCount(0.75f);
+    } else if (age == 'A'){
+      this.setPersonCount(1.0f);
+    } else if (age == 'S'){
+      this.setPersonCount(1.25f);
+    }
   }
 
   //Setter and Getters
@@ -76,6 +86,14 @@ public class Rider{
     date = d;
   }
 
+  public float getPersonCount(){
+    return personCount;
+  }
+
+  public void setPersonCount(float p){
+    personCount = p;
+  }
+
   //Methods
   public String validate(){
     String errorMessage = "";
@@ -107,12 +125,11 @@ public class Rider{
     } else if (id.length() != 7 && id.length() != 16) {
       return false;
     }
-    try{
-      int intID = Integer.parseInt(id);
-      return true;
-    } catch (Exception e){
-      return false;
-    }
+      if(id.length() == 7){
+      } else if (id.length() == 16){
+        id = id.substring(1);
+      }
+      return isANumber(id);
   }
 
   public static boolean validateTransport(char t){
@@ -160,5 +177,25 @@ public class Rider{
       return false;
     }
     return true;
+  }
+
+  public static boolean isANumber(String s){
+    boolean isNumber = true;
+    for (char c : s.toCharArray()){
+      int charVal = (int) c;
+      if(!(charVal > 47 && charVal < 58)){
+        isNumber = false;
+      }
+    }
+    return isNumber;
+  }
+
+  public String toString(){
+    return  ("ID: " + this.getID() + "\n" +
+            "Transport Mode: " + this.getTransport() + "\n" +
+            "Age: " + this.getAge() + "\n" +
+            "Hour: " + this.getHour() + "\n" +
+            "Date: " + this.getDate() + "\n" +
+            "Person Count: " + this.getPersonCount());
   }
 }

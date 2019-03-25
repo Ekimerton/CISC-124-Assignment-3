@@ -10,22 +10,72 @@ public class MTOptimizer {
     Subway[] subways = readSubways();
     GoTrain[] gotrains = readGoTrains();
 
-    System.out.println(Rider.validateDate("20121769"));
+    ArrayList<Rider> riders = parseRidership();
+
+    int[][] capacityRequired = generateCapacityRequired(riders);
+    for(int i = 0; i < 24; i++){
+      System.out.println("Hour " + i + ": " + Arrays.toString(capacityRequired[i]));
+    }
+    //ArrayList<Subway> subways = new ArrayList<Subway>();
+    //subways = Subway.sortByCapacity(subways);
+    parseRidership();
   }
 
-  public static void parseRidership(){
+  public static ArrayList<Rider> parseRidership(){
+    ArrayList<Rider> riders = new ArrayList<Rider>();
     try{
       BufferedReader reader = new BufferedReader(new FileReader("ridership.txt"));
-      for(int i = 0; i < 66105; i++){
+      BufferedWriter writer = new BufferedWriter(new FileWriter("errorlog.txt"));
+      for(int i = 0; i < 66105 - 1; i++){
         String info = reader.readLine();
-
+        try{
+          Rider rider = new Rider(info);
+          if(!(rider.validate().equals(""))){
+            writer.write("line " + (i+1) + ": " + info + " - " + rider.validate() + "\n");
+          } else {
+            riders.add(rider);
+          }
+        } catch (Exception e){
+          writer.write("line " + (i+1) + ": " + info + " - Invalid parameters" + "\n");
+        }
       }
+      writer.flush();
+      writer.close();
     } catch (Exception e){
       System.out.println("Error in parseRidership");
       System.out.println(e);
     }
+    return riders;
   }
 
+  /*
+  This array is very important so i've decided to make the comments multi-line. Basically, this is what stores the
+  amount of people riding anything anytime. The 2D table has an x-axis, from 0 - 23, that stores the hours of the day.
+  The y-axis, from 0-4, corresponds to a type of vehicle:
+  (0: Bus), (1: GoBus), (2: Streetcar), (3: Subway), (4: GoTrain)
+
+  So, the int at capacityRequired[11][3] would be the number of people who rode the subway at 10:00. (The hours are
+  shifted back by 1, so that hour 24 isn't the first entry of the day.)
+  */
+  public static int[][] generateCapacityRequired(ArrayList<Rider> riders){
+    int[][] capacityRequired = new int[24][5];
+    for(Rider rider : riders){
+      int pointer = -1;
+      if(rider.getTransport() == 'C'){
+        pointer = 0;
+      } else if (rider.getTransport() == 'D'){
+        pointer = 1;
+      } else if (rider.getTransport() == 'X'){
+        pointer = 2;
+      } else if (rider.getTransport() == 'S'){
+        pointer = 3;
+      } else if (rider.getTransport() == 'G'){
+        pointer = 4;
+      }
+      capacityRequired[rider.getHour() - 1][pointer] += rider.getPersonCount();
+    }
+    return capacityRequired;
+  }
 /*
   public static <T> ArrayList<T> readFile(String fileName, int fleetSize, T vehicle){
     ArrayList<T> vehicles = new ArrayList<>();
@@ -121,7 +171,6 @@ public class MTOptimizer {
         String info = reader.readLine();
         GoTrain gotrain = new GoTrain(info);
         gotrains[i] = gotrain;
-
       }
     } catch (Exception e){
       System.out.println("Error in readBuses:");

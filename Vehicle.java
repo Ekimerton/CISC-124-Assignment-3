@@ -65,4 +65,7 @@ abstract class Vehicle {
             "Capacity: " + this.getCapacity());
   }
 
+  public static Vehicle[] sortByCapacity(Vehicle[] array){
+    return array;
+  }
 }
