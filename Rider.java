@@ -9,6 +9,10 @@ public class Rider{
 
   public Rider(){
     id = "-1";
+    transport = 'X';
+    age = 'X';
+    hour = -1;
+    date = "yyyymmdd";
   }
 
   public Rider(String i, char t, char a, int h, String d){
@@ -95,27 +99,17 @@ public class Rider{
   }
 
   //Methods
+
+  /*
+  This method is a culmination of all the other checks, returns all errors as a string. No error returns a blank string.
+  */
   public String validate(){
     String errorMessage = "";
-    if(!validateId(this.getID())){
-      errorMessage = errorMessage + "Invalid id";
-    }
-
-    if(!validateTransport(this.getTransport())){
-      errorMessage = errorMessage + "Invalid transport method";
-    }
-
-    if(!validateAge(this.getAge())){
-      errorMessage = errorMessage + "Invalid age group";
-    }
-
-    if(!validateHour(this.getHour())){
-      errorMessage = errorMessage + "Invalid hour";
-    }
-
-    if(!validateDate(this.getDate())){
-      errorMessage = errorMessage + "Invalid date";
-    }
+    if(!validateId(this.getID())){errorMessage = errorMessage + "Invalid id";}
+    if(!validateTransport(this.getTransport())){errorMessage = errorMessage + "Invalid transport method";}
+    if(!validateAge(this.getAge())){errorMessage = errorMessage + "Invalid age group";}
+    if(!validateHour(this.getHour())){errorMessage = errorMessage + "Invalid hour";}
+    if(!validateDate(this.getDate())){errorMessage = errorMessage + "Invalid date";}
     return errorMessage;
   }
 
@@ -125,8 +119,7 @@ public class Rider{
     } else if (id.length() != 7 && id.length() != 16) {
       return false;
     }
-      if(id.length() == 7){
-      } else if (id.length() == 16){
+      if (id.length() == 16){
         id = id.substring(1);
       }
       return isANumber(id);

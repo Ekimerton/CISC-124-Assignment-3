@@ -52,9 +52,9 @@ public class Streetcar extends Vehicle {
 
   //toString
   public String toString(){
-    return  ("Unit: " + this.getUnitNumber() + "\n" +
-            "Capacity: " + this.getCapacity() + "\n" +
-            "ID: " + this.getID() + "\n" +
+    return  ("Unit: " + this.getUnitNumber() + ", " +
+            "Capacity: " + this.getCapacity() + ", " +
+            "ID: " + this.getID() + ", " +
             "Type: " + this.getType());
   }
 }

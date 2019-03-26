@@ -84,12 +84,12 @@ public class Subway extends Vehicle {
 
   //toString
   public String toString(){
-    return  ("Unit: " + this.getUnitNumber() + "\n" +
-            "Capacity: " + this.getCapacity() + "\n" +
-            "ID: " + this.getID() + "\n" +
-            "Num of cars: " + this.getNumOfCars() + "\n" +
-            "Passengers per car: " + this.getPassengersPerCar() + "\n" +
-            "Operational Status: " + this.getOperationalStatus() + "\n" +
+    return  ("Unit: " + this.getUnitNumber() + ", " +
+            "Capacity: " + this.getCapacity() + ", " +
+            "ID: " + this.getID() + ", " +
+            "Num of cars: " + this.getNumOfCars() + ", " +
+            "Passengers per car: " + this.getPassengersPerCar() + ", " +
+            "Operational Status: " + this.getOperationalStatus() + ", " +
             "Operational Date: " + this.getOperationalDate());
   }
 

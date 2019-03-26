@@ -1,0 +1,873 @@
+[Buses]
+[Hour = 1]
+	Unit: 2892, ID: MB228, Capacity: 60
+	Unit: 4587, ID: MB683, Capacity: 60
+[Count = 2]
+[Hour = 2]
+	Unit: 2892, ID: MB228, Capacity: 60
+[Count = 1]
+[Hour = 3]
+	Unit: 2892, ID: MB228, Capacity: 60
+[Count = 1]
+[Hour = 4]
+	Unit: 2892, ID: MB228, Capacity: 60
+[Count = 1]
+[Hour = 5]
+	Unit: 2892, ID: MB228, Capacity: 60
+	Unit: 4587, ID: MB683, Capacity: 60
+[Count = 2]
+[Hour = 6]
+	Unit: 2892, ID: MB228, Capacity: 60
+	Unit: 4587, ID: MB683, Capacity: 60
+	Unit: 3168, ID: MB964, Capacity: 60
+	Unit: 1670, ID: MB921, Capacity: 60
+	Unit: 4830, ID: MB620, Capacity: 60
+[Count = 5]
+[Hour = 7]
+	Unit: 2892, ID: MB228, Capacity: 60
+	Unit: 4587, ID: MB683, Capacity: 60
+	Unit: 3168, ID: MB964, Capacity: 60
+	Unit: 1670, ID: MB921, Capacity: 60
+	Unit: 4830, ID: MB620, Capacity: 60
+	Unit: 1727, ID: MB814, Capacity: 60
+	Unit: 1251, ID: MB195, Capacity: 60
+	Unit: 6232, ID: MB306, Capacity: 60
+	Unit: 4021, ID: MB876, Capacity: 60
+	Unit: 6036, ID: MB368, Capacity: 60
+	Unit: 3006, ID: MB903, Capacity: 60
+	Unit: 5949, ID: MB939, Capacity: 60
+	Unit: 4017, ID: MB235, Capacity: 60
+	Unit: 8043, ID: MB580, Capacity: 60
+	Unit: 2742, ID: MB185, Capacity: 60
+	Unit: 2656, ID: MB102, Capacity: 60
+	Unit: 3647, ID: MB229, Capacity: 60
+[Count = 17]
+[Hour = 8]
+	Unit: 2892, ID: MB228, Capacity: 60
+	Unit: 4587, ID: MB683, Capacity: 60
+	Unit: 3168, ID: MB964, Capacity: 60
+	Unit: 1670, ID: MB921, Capacity: 60
+	Unit: 4830, ID: MB620, Capacity: 60
+	Unit: 1727, ID: MB814, Capacity: 60
+	Unit: 1251, ID: MB195, Capacity: 60
+	Unit: 6232, ID: MB306, Capacity: 60
+	Unit: 4021, ID: MB876, Capacity: 60
+	Unit: 6036, ID: MB368, Capacity: 60
+	Unit: 3006, ID: MB903, Capacity: 60
+	Unit: 5949, ID: MB939, Capacity: 60
+	Unit: 4017, ID: MB235, Capacity: 60
+	Unit: 8043, ID: MB580, Capacity: 60
+	Unit: 2742, ID: MB185, Capacity: 60
+	Unit: 2656, ID: MB102, Capacity: 60
+	Unit: 3647, ID: MB229, Capacity: 60
+	Unit: 8422, ID: MB126, Capacity: 60
+	Unit: 2786, ID: MB172, Capacity: 50
+	Unit: 1939, ID: MB326, Capacity: 50
+	Unit: 1194, ID: MB740, Capacity: 50
+	Unit: 6908, ID: MB670, Capacity: 50
+[Count = 22]
+[Hour = 9]
+	Unit: 2892, ID: MB228, Capacity: 60
+	Unit: 4587, ID: MB683, Capacity: 60
+	Unit: 3168, ID: MB964, Capacity: 60
+	Unit: 1670, ID: MB921, Capacity: 60
+	Unit: 4830, ID: MB620, Capacity: 60
+	Unit: 1727, ID: MB814, Capacity: 60
+	Unit: 1251, ID: MB195, Capacity: 60
+	Unit: 6232, ID: MB306, Capacity: 60
+	Unit: 4021, ID: MB876, Capacity: 60
+	Unit: 6036, ID: MB368, Capacity: 60
+	Unit: 3006, ID: MB903, Capacity: 60
+	Unit: 5949, ID: MB939, Capacity: 60
+	Unit: 4017, ID: MB235, Capacity: 60
+[Count = 13]
+[Hour = 10]
+	Unit: 2892, ID: MB228, Capacity: 60
+	Unit: 4587, ID: MB683, Capacity: 60
+	Unit: 3168, ID: MB964, Capacity: 60
+	Unit: 1670, ID: MB921, Capacity: 60
+	Unit: 4830, ID: MB620, Capacity: 60
+	Unit: 1727, ID: MB814, Capacity: 60
+	Unit: 1251, ID: MB195, Capacity: 60
+	Unit: 6232, ID: MB306, Capacity: 60
+	Unit: 4021, ID: MB876, Capacity: 60
+[Count = 9]
+[Hour = 11]
+	Unit: 2892, ID: MB228, Capacity: 60
+	Unit: 4587, ID: MB683, Capacity: 60
+	Unit: 3168, ID: MB964, Capacity: 60
+	Unit: 1670, ID: MB921, Capacity: 60
+	Unit: 4830, ID: MB620, Capacity: 60
+	Unit: 1727, ID: MB814, Capacity: 60
+	Unit: 1251, ID: MB195, Capacity: 60
+[Count = 7]
+[Hour = 12]
+	Unit: 2892, ID: MB228, Capacity: 60
+	Unit: 4587, ID: MB683, Capacity: 60
+	Unit: 3168, ID: MB964, Capacity: 60
+	Unit: 1670, ID: MB921, Capacity: 60
+	Unit: 4830, ID: MB620, Capacity: 60
+	Unit: 1727, ID: MB814, Capacity: 60
+	Unit: 1251, ID: MB195, Capacity: 60
+	Unit: 6232, ID: MB306, Capacity: 60
+	Unit: 4021, ID: MB876, Capacity: 60
+	Unit: 6036, ID: MB368, Capacity: 60
+	Unit: 3006, ID: MB903, Capacity: 60
+[Count = 11]
+[Hour = 13]
+	Unit: 2892, ID: MB228, Capacity: 60
+	Unit: 4587, ID: MB683, Capacity: 60
+	Unit: 3168, ID: MB964, Capacity: 60
+	Unit: 1670, ID: MB921, Capacity: 60
+	Unit: 4830, ID: MB620, Capacity: 60
+	Unit: 1727, ID: MB814, Capacity: 60
+	Unit: 1251, ID: MB195, Capacity: 60
+	Unit: 6232, ID: MB306, Capacity: 60
+	Unit: 4021, ID: MB876, Capacity: 60
+	Unit: 6036, ID: MB368, Capacity: 60
+	Unit: 3006, ID: MB903, Capacity: 60
+	Unit: 5949, ID: MB939, Capacity: 60
+	Unit: 4017, ID: MB235, Capacity: 60
+	Unit: 8043, ID: MB580, Capacity: 60
+	Unit: 2742, ID: MB185, Capacity: 60
+	Unit: 2656, ID: MB102, Capacity: 60
+[Count = 16]
+[Hour = 14]
+	Unit: 2892, ID: MB228, Capacity: 60
+	Unit: 4587, ID: MB683, Capacity: 60
+	Unit: 3168, ID: MB964, Capacity: 60
+	Unit: 1670, ID: MB921, Capacity: 60
+	Unit: 4830, ID: MB620, Capacity: 60
+	Unit: 1727, ID: MB814, Capacity: 60
+[Count = 6]
+[Hour = 15]
+	Unit: 2892, ID: MB228, Capacity: 60
+	Unit: 4587, ID: MB683, Capacity: 60
+	Unit: 3168, ID: MB964, Capacity: 60
+	Unit: 1670, ID: MB921, Capacity: 60
+	Unit: 4830, ID: MB620, Capacity: 60
+	Unit: 1727, ID: MB814, Capacity: 60
+	Unit: 1251, ID: MB195, Capacity: 60
+	Unit: 6232, ID: MB306, Capacity: 60
+	Unit: 4021, ID: MB876, Capacity: 60
+	Unit: 6036, ID: MB368, Capacity: 60
+	Unit: 3006, ID: MB903, Capacity: 60
+	Unit: 5949, ID: MB939, Capacity: 60
+	Unit: 4017, ID: MB235, Capacity: 60
+	Unit: 8043, ID: MB580, Capacity: 60
+[Count = 14]
+[Hour = 16]
+	Unit: 2892, ID: MB228, Capacity: 60
+	Unit: 4587, ID: MB683, Capacity: 60
+	Unit: 3168, ID: MB964, Capacity: 60
+	Unit: 1670, ID: MB921, Capacity: 60
+	Unit: 4830, ID: MB620, Capacity: 60
+	Unit: 1727, ID: MB814, Capacity: 60
+	Unit: 1251, ID: MB195, Capacity: 60
+	Unit: 6232, ID: MB306, Capacity: 60
+	Unit: 4021, ID: MB876, Capacity: 60
+	Unit: 6036, ID: MB368, Capacity: 60
+	Unit: 3006, ID: MB903, Capacity: 60
+	Unit: 5949, ID: MB939, Capacity: 60
+	Unit: 4017, ID: MB235, Capacity: 60
+	Unit: 8043, ID: MB580, Capacity: 60
+	Unit: 2742, ID: MB185, Capacity: 60
+	Unit: 2656, ID: MB102, Capacity: 60
+	Unit: 3647, ID: MB229, Capacity: 60
+[Count = 17]
+[Hour = 17]
+	Unit: 2892, ID: MB228, Capacity: 60
+	Unit: 4587, ID: MB683, Capacity: 60
+	Unit: 3168, ID: MB964, Capacity: 60
+	Unit: 1670, ID: MB921, Capacity: 60
+	Unit: 4830, ID: MB620, Capacity: 60
+	Unit: 1727, ID: MB814, Capacity: 60
+[Count = 6]
+[Hour = 18]
+	Unit: 2892, ID: MB228, Capacity: 60
+	Unit: 4587, ID: MB683, Capacity: 60
+	Unit: 3168, ID: MB964, Capacity: 60
+	Unit: 1670, ID: MB921, Capacity: 60
+	Unit: 4830, ID: MB620, Capacity: 60
+	Unit: 1727, ID: MB814, Capacity: 60
+	Unit: 1251, ID: MB195, Capacity: 60
+	Unit: 6232, ID: MB306, Capacity: 60
+	Unit: 4021, ID: MB876, Capacity: 60
+	Unit: 6036, ID: MB368, Capacity: 60
+	Unit: 3006, ID: MB903, Capacity: 60
+	Unit: 5949, ID: MB939, Capacity: 60
+	Unit: 4017, ID: MB235, Capacity: 60
+	Unit: 8043, ID: MB580, Capacity: 60
+	Unit: 2742, ID: MB185, Capacity: 60
+	Unit: 2656, ID: MB102, Capacity: 60
+	Unit: 3647, ID: MB229, Capacity: 60
+	Unit: 8422, ID: MB126, Capacity: 60
+	Unit: 2786, ID: MB172, Capacity: 50
+	Unit: 1939, ID: MB326, Capacity: 50
+	Unit: 1194, ID: MB740, Capacity: 50
+	Unit: 6908, ID: MB670, Capacity: 50
+[Count = 22]
+[Hour = 19]
+	Unit: 2892, ID: MB228, Capacity: 60
+	Unit: 4587, ID: MB683, Capacity: 60
+	Unit: 3168, ID: MB964, Capacity: 60
+	Unit: 1670, ID: MB921, Capacity: 60
+	Unit: 4830, ID: MB620, Capacity: 60
+	Unit: 1727, ID: MB814, Capacity: 60
+	Unit: 1251, ID: MB195, Capacity: 60
+	Unit: 6232, ID: MB306, Capacity: 60
+	Unit: 4021, ID: MB876, Capacity: 60
+	Unit: 6036, ID: MB368, Capacity: 60
+	Unit: 3006, ID: MB903, Capacity: 60
+	Unit: 5949, ID: MB939, Capacity: 60
+	Unit: 4017, ID: MB235, Capacity: 60
+	Unit: 8043, ID: MB580, Capacity: 60
+	Unit: 2742, ID: MB185, Capacity: 60
+	Unit: 2656, ID: MB102, Capacity: 60
+	Unit: 3647, ID: MB229, Capacity: 60
+[Count = 17]
+[Hour = 20]
+	Unit: 2892, ID: MB228, Capacity: 60
+	Unit: 4587, ID: MB683, Capacity: 60
+	Unit: 3168, ID: MB964, Capacity: 60
+	Unit: 1670, ID: MB921, Capacity: 60
+	Unit: 4830, ID: MB620, Capacity: 60
+	Unit: 1727, ID: MB814, Capacity: 60
+	Unit: 1251, ID: MB195, Capacity: 60
+	Unit: 6232, ID: MB306, Capacity: 60
+	Unit: 4021, ID: MB876, Capacity: 60
+	Unit: 6036, ID: MB368, Capacity: 60
+	Unit: 3006, ID: MB903, Capacity: 60
+	Unit: 5949, ID: MB939, Capacity: 60
+	Unit: 4017, ID: MB235, Capacity: 60
+[Count = 13]
+[Hour = 21]
+	Unit: 2892, ID: MB228, Capacity: 60
+	Unit: 4587, ID: MB683, Capacity: 60
+	Unit: 3168, ID: MB964, Capacity: 60
+	Unit: 1670, ID: MB921, Capacity: 60
+	Unit: 4830, ID: MB620, Capacity: 60
+	Unit: 1727, ID: MB814, Capacity: 60
+	Unit: 1251, ID: MB195, Capacity: 60
+	Unit: 6232, ID: MB306, Capacity: 60
+	Unit: 4021, ID: MB876, Capacity: 60
+[Count = 9]
+[Hour = 22]
+	Unit: 2892, ID: MB228, Capacity: 60
+	Unit: 4587, ID: MB683, Capacity: 60
+	Unit: 3168, ID: MB964, Capacity: 60
+	Unit: 1670, ID: MB921, Capacity: 60
+	Unit: 4830, ID: MB620, Capacity: 60
+	Unit: 1727, ID: MB814, Capacity: 60
+	Unit: 1251, ID: MB195, Capacity: 60
+[Count = 7]
+[Hour = 23]
+	Unit: 2892, ID: MB228, Capacity: 60
+	Unit: 4587, ID: MB683, Capacity: 60
+	Unit: 3168, ID: MB964, Capacity: 60
+	Unit: 1670, ID: MB921, Capacity: 60
+	Unit: 4830, ID: MB620, Capacity: 60
+	Unit: 1727, ID: MB814, Capacity: 60
+[Count = 6]
+[Hour = 24]
+	Unit: 2892, ID: MB228, Capacity: 60
+	Unit: 4587, ID: MB683, Capacity: 60
+	Unit: 3168, ID: MB964, Capacity: 60
+[Count = 3]
+[GoBuses]
+[Hour = 1]
+[Count = 0]
+[Hour = 2]
+[Count = 0]
+[Hour = 3]
+[Count = 0]
+[Hour = 4]
+[Count = 0]
+[Hour = 5]
+[Count = 0]
+[Hour = 6]
+	Unit: 8104, ID: GB567, Capacity: 50
+[Count = 1]
+[Hour = 7]
+	Unit: 8104, ID: GB567, Capacity: 50
+	Unit: 3784, ID: GB218, Capacity: 50
+	Unit: 5132, ID: GB809, Capacity: 50
+	Unit: 4320, ID: GB853, Capacity: 45
+	Unit: 6598, ID: GB373, Capacity: 45
+[Count = 5]
+[Hour = 8]
+	Unit: 8104, ID: GB567, Capacity: 50
+	Unit: 3784, ID: GB218, Capacity: 50
+	Unit: 5132, ID: GB809, Capacity: 50
+	Unit: 4320, ID: GB853, Capacity: 45
+	Unit: 6598, ID: GB373, Capacity: 45
+	Unit: 9375, ID: GB614, Capacity: 45
+[Count = 6]
+[Hour = 9]
+	Unit: 8104, ID: GB567, Capacity: 50
+	Unit: 3784, ID: GB218, Capacity: 50
+	Unit: 5132, ID: GB809, Capacity: 50
+[Count = 3]
+[Hour = 10]
+	Unit: 8104, ID: GB567, Capacity: 50
+	Unit: 3784, ID: GB218, Capacity: 50
+[Count = 2]
+[Hour = 11]
+	Unit: 8104, ID: GB567, Capacity: 50
+	Unit: 3784, ID: GB218, Capacity: 50
+	Unit: 5132, ID: GB809, Capacity: 50
+[Count = 3]
+[Hour = 12]
+	Unit: 8104, ID: GB567, Capacity: 50
+	Unit: 3784, ID: GB218, Capacity: 50
+	Unit: 5132, ID: GB809, Capacity: 50
+[Count = 3]
+[Hour = 13]
+	Unit: 8104, ID: GB567, Capacity: 50
+	Unit: 3784, ID: GB218, Capacity: 50
+	Unit: 5132, ID: GB809, Capacity: 50
+	Unit: 4320, ID: GB853, Capacity: 45
+	Unit: 6598, ID: GB373, Capacity: 45
+[Count = 5]
+[Hour = 14]
+	Unit: 8104, ID: GB567, Capacity: 50
+	Unit: 3784, ID: GB218, Capacity: 50
+[Count = 2]
+[Hour = 15]
+	Unit: 8104, ID: GB567, Capacity: 50
+	Unit: 3784, ID: GB218, Capacity: 50
+	Unit: 5132, ID: GB809, Capacity: 50
+	Unit: 4320, ID: GB853, Capacity: 45
+[Count = 4]
+[Hour = 16]
+	Unit: 8104, ID: GB567, Capacity: 50
+	Unit: 3784, ID: GB218, Capacity: 50
+	Unit: 5132, ID: GB809, Capacity: 50
+	Unit: 4320, ID: GB853, Capacity: 45
+	Unit: 6598, ID: GB373, Capacity: 45
+[Count = 5]
+[Hour = 17]
+	Unit: 8104, ID: GB567, Capacity: 50
+	Unit: 3784, ID: GB218, Capacity: 50
+	Unit: 5132, ID: GB809, Capacity: 50
+	Unit: 4320, ID: GB853, Capacity: 45
+	Unit: 6598, ID: GB373, Capacity: 45
+	Unit: 9375, ID: GB614, Capacity: 45
+	Unit: 4868, ID: GB194, Capacity: 45
+[Count = 7]
+[Hour = 18]
+	Unit: 8104, ID: GB567, Capacity: 50
+	Unit: 3784, ID: GB218, Capacity: 50
+	Unit: 5132, ID: GB809, Capacity: 50
+	Unit: 4320, ID: GB853, Capacity: 45
+	Unit: 6598, ID: GB373, Capacity: 45
+	Unit: 9375, ID: GB614, Capacity: 45
+[Count = 6]
+[Hour = 19]
+	Unit: 8104, ID: GB567, Capacity: 50
+	Unit: 3784, ID: GB218, Capacity: 50
+	Unit: 5132, ID: GB809, Capacity: 50
+	Unit: 4320, ID: GB853, Capacity: 45
+	Unit: 6598, ID: GB373, Capacity: 45
+[Count = 5]
+[Hour = 20]
+	Unit: 8104, ID: GB567, Capacity: 50
+	Unit: 3784, ID: GB218, Capacity: 50
+	Unit: 5132, ID: GB809, Capacity: 50
+	Unit: 4320, ID: GB853, Capacity: 45
+[Count = 4]
+[Hour = 21]
+	Unit: 8104, ID: GB567, Capacity: 50
+	Unit: 3784, ID: GB218, Capacity: 50
+	Unit: 5132, ID: GB809, Capacity: 50
+[Count = 3]
+[Hour = 22]
+[Count = 0]
+[Hour = 23]
+[Count = 0]
+[Hour = 24]
+[Count = 0]
+[Streetcars]
+[Hour = 1]
+	Unit: 3884, Capacity: 80, ID: SC526, Type: D
+	Unit: 1609, Capacity: 80, ID: SC252, Type: D
+[Count = 2]
+[Hour = 2]
+	Unit: 3884, Capacity: 80, ID: SC526, Type: D
+[Count = 1]
+[Hour = 3]
+	Unit: 3884, Capacity: 80, ID: SC526, Type: D
+[Count = 1]
+[Hour = 4]
+	Unit: 3884, Capacity: 80, ID: SC526, Type: D
+[Count = 1]
+[Hour = 5]
+	Unit: 3884, Capacity: 80, ID: SC526, Type: D
+	Unit: 1609, Capacity: 80, ID: SC252, Type: D
+[Count = 2]
+[Hour = 6]
+	Unit: 3884, Capacity: 80, ID: SC526, Type: D
+	Unit: 1609, Capacity: 80, ID: SC252, Type: D
+	Unit: 1022, Capacity: 80, ID: SC545, Type: D
+[Count = 3]
+[Hour = 7]
+	Unit: 3884, Capacity: 80, ID: SC526, Type: D
+	Unit: 1609, Capacity: 80, ID: SC252, Type: D
+	Unit: 1022, Capacity: 80, ID: SC545, Type: D
+	Unit: 8573, Capacity: 80, ID: SC147, Type: D
+	Unit: 1765, Capacity: 80, ID: SC509, Type: D
+	Unit: 7797, Capacity: 80, ID: SC165, Type: D
+	Unit: 1142, Capacity: 80, ID: SC199, Type: D
+	Unit: 2168, Capacity: 40, ID: SC166, Type: S
+	Unit: 8037, Capacity: 40, ID: SC392, Type: S
+	Unit: 1640, Capacity: 40, ID: SC857, Type: S
+	Unit: 3541, Capacity: 40, ID: SC821, Type: S
+	Unit: 6133, Capacity: 40, ID: SC353, Type: S
+	Unit: 9199, Capacity: 40, ID: SC439, Type: S
+	Unit: 6983, Capacity: 40, ID: SC879, Type: S
+[Count = 14]
+[Hour = 8]
+	Unit: 3884, Capacity: 80, ID: SC526, Type: D
+	Unit: 1609, Capacity: 80, ID: SC252, Type: D
+	Unit: 1022, Capacity: 80, ID: SC545, Type: D
+	Unit: 8573, Capacity: 80, ID: SC147, Type: D
+	Unit: 1765, Capacity: 80, ID: SC509, Type: D
+	Unit: 7797, Capacity: 80, ID: SC165, Type: D
+	Unit: 1142, Capacity: 80, ID: SC199, Type: D
+	Unit: 2168, Capacity: 40, ID: SC166, Type: S
+	Unit: 8037, Capacity: 40, ID: SC392, Type: S
+	Unit: 1640, Capacity: 40, ID: SC857, Type: S
+	Unit: 3541, Capacity: 40, ID: SC821, Type: S
+	Unit: 6133, Capacity: 40, ID: SC353, Type: S
+	Unit: 9199, Capacity: 40, ID: SC439, Type: S
+	Unit: 6983, Capacity: 40, ID: SC879, Type: S
+	Unit: 3533, Capacity: 40, ID: SC378, Type: S
+	Unit: 4775, Capacity: 40, ID: SC461, Type: S
+	Unit: 8727, Capacity: 40, ID: SC726, Type: S
+	Unit: 3017, Capacity: 40, ID: SC400, Type: S
+	Unit: 1830, Capacity: 40, ID: SC284, Type: S
+[Count = 19]
+[Hour = 9]
+	Unit: 3884, Capacity: 80, ID: SC526, Type: D
+	Unit: 1609, Capacity: 80, ID: SC252, Type: D
+	Unit: 1022, Capacity: 80, ID: SC545, Type: D
+	Unit: 8573, Capacity: 80, ID: SC147, Type: D
+	Unit: 1765, Capacity: 80, ID: SC509, Type: D
+	Unit: 7797, Capacity: 80, ID: SC165, Type: D
+	Unit: 1142, Capacity: 80, ID: SC199, Type: D
+	Unit: 2168, Capacity: 40, ID: SC166, Type: S
+	Unit: 8037, Capacity: 40, ID: SC392, Type: S
+[Count = 9]
+[Hour = 10]
+	Unit: 3884, Capacity: 80, ID: SC526, Type: D
+	Unit: 1609, Capacity: 80, ID: SC252, Type: D
+	Unit: 1022, Capacity: 80, ID: SC545, Type: D
+	Unit: 8573, Capacity: 80, ID: SC147, Type: D
+	Unit: 1765, Capacity: 80, ID: SC509, Type: D
+[Count = 5]
+[Hour = 11]
+	Unit: 3884, Capacity: 80, ID: SC526, Type: D
+	Unit: 1609, Capacity: 80, ID: SC252, Type: D
+	Unit: 1022, Capacity: 80, ID: SC545, Type: D
+	Unit: 8573, Capacity: 80, ID: SC147, Type: D
+[Count = 4]
+[Hour = 12]
+	Unit: 3884, Capacity: 80, ID: SC526, Type: D
+	Unit: 1609, Capacity: 80, ID: SC252, Type: D
+	Unit: 1022, Capacity: 80, ID: SC545, Type: D
+	Unit: 8573, Capacity: 80, ID: SC147, Type: D
+	Unit: 1765, Capacity: 80, ID: SC509, Type: D
+	Unit: 7797, Capacity: 80, ID: SC165, Type: D
+	Unit: 1142, Capacity: 80, ID: SC199, Type: D
+[Count = 7]
+[Hour = 13]
+	Unit: 3884, Capacity: 80, ID: SC526, Type: D
+	Unit: 1609, Capacity: 80, ID: SC252, Type: D
+	Unit: 1022, Capacity: 80, ID: SC545, Type: D
+	Unit: 8573, Capacity: 80, ID: SC147, Type: D
+	Unit: 1765, Capacity: 80, ID: SC509, Type: D
+	Unit: 7797, Capacity: 80, ID: SC165, Type: D
+	Unit: 1142, Capacity: 80, ID: SC199, Type: D
+	Unit: 2168, Capacity: 40, ID: SC166, Type: S
+	Unit: 8037, Capacity: 40, ID: SC392, Type: S
+	Unit: 1640, Capacity: 40, ID: SC857, Type: S
+	Unit: 3541, Capacity: 40, ID: SC821, Type: S
+[Count = 11]
+[Hour = 14]
+	Unit: 3884, Capacity: 80, ID: SC526, Type: D
+[Count = 1]
+[Hour = 15]
+	Unit: 3884, Capacity: 80, ID: SC526, Type: D
+	Unit: 1609, Capacity: 80, ID: SC252, Type: D
+	Unit: 1022, Capacity: 80, ID: SC545, Type: D
+	Unit: 8573, Capacity: 80, ID: SC147, Type: D
+	Unit: 1765, Capacity: 80, ID: SC509, Type: D
+	Unit: 7797, Capacity: 80, ID: SC165, Type: D
+	Unit: 1142, Capacity: 80, ID: SC199, Type: D
+	Unit: 2168, Capacity: 40, ID: SC166, Type: S
+	Unit: 8037, Capacity: 40, ID: SC392, Type: S
+[Count = 9]
+[Hour = 16]
+	Unit: 3884, Capacity: 80, ID: SC526, Type: D
+	Unit: 1609, Capacity: 80, ID: SC252, Type: D
+	Unit: 1022, Capacity: 80, ID: SC545, Type: D
+	Unit: 8573, Capacity: 80, ID: SC147, Type: D
+	Unit: 1765, Capacity: 80, ID: SC509, Type: D
+	Unit: 7797, Capacity: 80, ID: SC165, Type: D
+	Unit: 1142, Capacity: 80, ID: SC199, Type: D
+	Unit: 2168, Capacity: 40, ID: SC166, Type: S
+	Unit: 8037, Capacity: 40, ID: SC392, Type: S
+	Unit: 1640, Capacity: 40, ID: SC857, Type: S
+	Unit: 3541, Capacity: 40, ID: SC821, Type: S
+	Unit: 6133, Capacity: 40, ID: SC353, Type: S
+	Unit: 9199, Capacity: 40, ID: SC439, Type: S
+	Unit: 6983, Capacity: 40, ID: SC879, Type: S
+[Count = 14]
+[Hour = 17]
+	Unit: 3884, Capacity: 80, ID: SC526, Type: D
+	Unit: 1609, Capacity: 80, ID: SC252, Type: D
+	Unit: 1022, Capacity: 80, ID: SC545, Type: D
+	Unit: 8573, Capacity: 80, ID: SC147, Type: D
+	Unit: 1765, Capacity: 80, ID: SC509, Type: D
+	Unit: 7797, Capacity: 80, ID: SC165, Type: D
+	Unit: 1142, Capacity: 80, ID: SC199, Type: D
+	Unit: 2168, Capacity: 40, ID: SC166, Type: S
+	Unit: 8037, Capacity: 40, ID: SC392, Type: S
+	Unit: 1640, Capacity: 40, ID: SC857, Type: S
+	Unit: 3541, Capacity: 40, ID: SC821, Type: S
+	Unit: 6133, Capacity: 40, ID: SC353, Type: S
+	Unit: 9199, Capacity: 40, ID: SC439, Type: S
+	Unit: 6983, Capacity: 40, ID: SC879, Type: S
+	Unit: 3533, Capacity: 40, ID: SC378, Type: S
+	Unit: 4775, Capacity: 40, ID: SC461, Type: S
+	Unit: 8727, Capacity: 40, ID: SC726, Type: S
+	Unit: 3017, Capacity: 40, ID: SC400, Type: S
+	Unit: 1830, Capacity: 40, ID: SC284, Type: S
+[Count = 19]
+[Hour = 18]
+	Unit: 3884, Capacity: 80, ID: SC526, Type: D
+	Unit: 1609, Capacity: 80, ID: SC252, Type: D
+	Unit: 1022, Capacity: 80, ID: SC545, Type: D
+	Unit: 8573, Capacity: 80, ID: SC147, Type: D
+	Unit: 1765, Capacity: 80, ID: SC509, Type: D
+	Unit: 7797, Capacity: 80, ID: SC165, Type: D
+	Unit: 1142, Capacity: 80, ID: SC199, Type: D
+	Unit: 2168, Capacity: 40, ID: SC166, Type: S
+	Unit: 8037, Capacity: 40, ID: SC392, Type: S
+	Unit: 1640, Capacity: 40, ID: SC857, Type: S
+	Unit: 3541, Capacity: 40, ID: SC821, Type: S
+	Unit: 6133, Capacity: 40, ID: SC353, Type: S
+	Unit: 9199, Capacity: 40, ID: SC439, Type: S
+	Unit: 6983, Capacity: 40, ID: SC879, Type: S
+	Unit: 3533, Capacity: 40, ID: SC378, Type: S
+	Unit: 4775, Capacity: 40, ID: SC461, Type: S
+	Unit: 8727, Capacity: 40, ID: SC726, Type: S
+	Unit: 3017, Capacity: 40, ID: SC400, Type: S
+	Unit: 1830, Capacity: 40, ID: SC284, Type: S
+[Count = 19]
+[Hour = 19]
+	Unit: 3884, Capacity: 80, ID: SC526, Type: D
+	Unit: 1609, Capacity: 80, ID: SC252, Type: D
+	Unit: 1022, Capacity: 80, ID: SC545, Type: D
+	Unit: 8573, Capacity: 80, ID: SC147, Type: D
+	Unit: 1765, Capacity: 80, ID: SC509, Type: D
+	Unit: 7797, Capacity: 80, ID: SC165, Type: D
+	Unit: 1142, Capacity: 80, ID: SC199, Type: D
+	Unit: 2168, Capacity: 40, ID: SC166, Type: S
+	Unit: 8037, Capacity: 40, ID: SC392, Type: S
+	Unit: 1640, Capacity: 40, ID: SC857, Type: S
+	Unit: 3541, Capacity: 40, ID: SC821, Type: S
+	Unit: 6133, Capacity: 40, ID: SC353, Type: S
+	Unit: 9199, Capacity: 40, ID: SC439, Type: S
+	Unit: 6983, Capacity: 40, ID: SC879, Type: S
+[Count = 14]
+[Hour = 20]
+	Unit: 3884, Capacity: 80, ID: SC526, Type: D
+	Unit: 1609, Capacity: 80, ID: SC252, Type: D
+	Unit: 1022, Capacity: 80, ID: SC545, Type: D
+	Unit: 8573, Capacity: 80, ID: SC147, Type: D
+	Unit: 1765, Capacity: 80, ID: SC509, Type: D
+	Unit: 7797, Capacity: 80, ID: SC165, Type: D
+	Unit: 1142, Capacity: 80, ID: SC199, Type: D
+	Unit: 2168, Capacity: 40, ID: SC166, Type: S
+	Unit: 8037, Capacity: 40, ID: SC392, Type: S
+[Count = 9]
+[Hour = 21]
+	Unit: 3884, Capacity: 80, ID: SC526, Type: D
+	Unit: 1609, Capacity: 80, ID: SC252, Type: D
+	Unit: 1022, Capacity: 80, ID: SC545, Type: D
+	Unit: 8573, Capacity: 80, ID: SC147, Type: D
+	Unit: 1765, Capacity: 80, ID: SC509, Type: D
+	Unit: 7797, Capacity: 80, ID: SC165, Type: D
+[Count = 6]
+[Hour = 22]
+	Unit: 3884, Capacity: 80, ID: SC526, Type: D
+	Unit: 1609, Capacity: 80, ID: SC252, Type: D
+	Unit: 1022, Capacity: 80, ID: SC545, Type: D
+	Unit: 8573, Capacity: 80, ID: SC147, Type: D
+[Count = 4]
+[Hour = 23]
+	Unit: 3884, Capacity: 80, ID: SC526, Type: D
+	Unit: 1609, Capacity: 80, ID: SC252, Type: D
+	Unit: 1022, Capacity: 80, ID: SC545, Type: D
+	Unit: 8573, Capacity: 80, ID: SC147, Type: D
+[Count = 4]
+[Hour = 24]
+	Unit: 3884, Capacity: 80, ID: SC526, Type: D
+	Unit: 1609, Capacity: 80, ID: SC252, Type: D
+[Count = 2]
+[Subways]
+[Hour = 1]
+	Unit: 4495, Capacity: 300, ID: 239, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+[Count = 1]
+[Hour = 2]
+	Unit: 4495, Capacity: 300, ID: 239, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+[Count = 1]
+[Hour = 3]
+	Unit: 4495, Capacity: 300, ID: 239, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+[Count = 1]
+[Hour = 4]
+	Unit: 4495, Capacity: 300, ID: 239, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+[Count = 1]
+[Hour = 5]
+	Unit: 4495, Capacity: 300, ID: 239, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+[Count = 1]
+[Hour = 6]
+	Unit: 4495, Capacity: 300, ID: 239, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 2861, Capacity: 300, ID: 807, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+[Count = 2]
+[Hour = 7]
+	Unit: 4495, Capacity: 300, ID: 239, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 2861, Capacity: 300, ID: 807, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+	Unit: 7754, Capacity: 300, ID: 373, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 8897, Capacity: 300, ID: 668, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+	Unit: 3895, Capacity: 240, ID: 118, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+	Unit: 3922, Capacity: 240, ID: 341, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+	Unit: 5014, Capacity: 240, ID: 846, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+	Unit: 6660, Capacity: 240, ID: 304, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+[Count = 8]
+[Hour = 8]
+	Unit: 4495, Capacity: 300, ID: 239, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 2861, Capacity: 300, ID: 807, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+	Unit: 7754, Capacity: 300, ID: 373, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 8897, Capacity: 300, ID: 668, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+	Unit: 3895, Capacity: 240, ID: 118, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+	Unit: 3922, Capacity: 240, ID: 341, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+	Unit: 5014, Capacity: 240, ID: 846, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+	Unit: 6660, Capacity: 240, ID: 304, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+	Unit: 9226, Capacity: 240, ID: 980, Num of cars: 6, Passengers per car: 40, Operational Status: U, Operational Date: 20190304
+[Count = 9]
+[Hour = 9]
+	Unit: 4495, Capacity: 300, ID: 239, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 2861, Capacity: 300, ID: 807, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+	Unit: 7754, Capacity: 300, ID: 373, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 8897, Capacity: 300, ID: 668, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+	Unit: 3895, Capacity: 240, ID: 118, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+	Unit: 3922, Capacity: 240, ID: 341, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+[Count = 6]
+[Hour = 10]
+	Unit: 4495, Capacity: 300, ID: 239, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 2861, Capacity: 300, ID: 807, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+	Unit: 7754, Capacity: 300, ID: 373, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+[Count = 3]
+[Hour = 11]
+	Unit: 4495, Capacity: 300, ID: 239, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 2861, Capacity: 300, ID: 807, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+	Unit: 7754, Capacity: 300, ID: 373, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 8897, Capacity: 300, ID: 668, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+[Count = 4]
+[Hour = 12]
+	Unit: 4495, Capacity: 300, ID: 239, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 2861, Capacity: 300, ID: 807, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+	Unit: 7754, Capacity: 300, ID: 373, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 8897, Capacity: 300, ID: 668, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+	Unit: 3895, Capacity: 240, ID: 118, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+[Count = 5]
+[Hour = 13]
+	Unit: 4495, Capacity: 300, ID: 239, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 2861, Capacity: 300, ID: 807, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+	Unit: 7754, Capacity: 300, ID: 373, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 8897, Capacity: 300, ID: 668, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+	Unit: 3895, Capacity: 240, ID: 118, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+	Unit: 3922, Capacity: 240, ID: 341, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+	Unit: 5014, Capacity: 240, ID: 846, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+[Count = 7]
+[Hour = 14]
+	Unit: 4495, Capacity: 300, ID: 239, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 2861, Capacity: 300, ID: 807, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+	Unit: 7754, Capacity: 300, ID: 373, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+[Count = 3]
+[Hour = 15]
+	Unit: 4495, Capacity: 300, ID: 239, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 2861, Capacity: 300, ID: 807, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+	Unit: 7754, Capacity: 300, ID: 373, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 8897, Capacity: 300, ID: 668, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+	Unit: 3895, Capacity: 240, ID: 118, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+	Unit: 3922, Capacity: 240, ID: 341, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+[Count = 6]
+[Hour = 16]
+	Unit: 4495, Capacity: 300, ID: 239, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 2861, Capacity: 300, ID: 807, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+	Unit: 7754, Capacity: 300, ID: 373, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 8897, Capacity: 300, ID: 668, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+	Unit: 3895, Capacity: 240, ID: 118, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+	Unit: 3922, Capacity: 240, ID: 341, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+	Unit: 5014, Capacity: 240, ID: 846, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+	Unit: 6660, Capacity: 240, ID: 304, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+[Count = 8]
+[Hour = 17]
+	Unit: 4495, Capacity: 300, ID: 239, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 2861, Capacity: 300, ID: 807, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+	Unit: 7754, Capacity: 300, ID: 373, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 8897, Capacity: 300, ID: 668, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+	Unit: 3895, Capacity: 240, ID: 118, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+	Unit: 3922, Capacity: 240, ID: 341, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+	Unit: 5014, Capacity: 240, ID: 846, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+	Unit: 6660, Capacity: 240, ID: 304, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+	Unit: 9226, Capacity: 240, ID: 980, Num of cars: 6, Passengers per car: 40, Operational Status: U, Operational Date: 20190304
+	Unit: 7467, Capacity: 240, ID: 857, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+	Unit: 8418, Capacity: 200, ID: 106, Num of cars: 4, Passengers per car: 50, Operational Status: A, Operational Date: 20190304
+	Unit: 3053, Capacity: 200, ID: 503, Num of cars: 4, Passengers per car: 50, Operational Status: A, Operational Date: 20190304
+[Count = 12]
+[Hour = 18]
+	Unit: 4495, Capacity: 300, ID: 239, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 2861, Capacity: 300, ID: 807, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+	Unit: 7754, Capacity: 300, ID: 373, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 8897, Capacity: 300, ID: 668, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+	Unit: 3895, Capacity: 240, ID: 118, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+	Unit: 3922, Capacity: 240, ID: 341, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+	Unit: 5014, Capacity: 240, ID: 846, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+	Unit: 6660, Capacity: 240, ID: 304, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+	Unit: 9226, Capacity: 240, ID: 980, Num of cars: 6, Passengers per car: 40, Operational Status: U, Operational Date: 20190304
+	Unit: 7467, Capacity: 240, ID: 857, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+[Count = 10]
+[Hour = 19]
+	Unit: 4495, Capacity: 300, ID: 239, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 2861, Capacity: 300, ID: 807, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+	Unit: 7754, Capacity: 300, ID: 373, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 8897, Capacity: 300, ID: 668, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+	Unit: 3895, Capacity: 240, ID: 118, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+	Unit: 3922, Capacity: 240, ID: 341, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+	Unit: 5014, Capacity: 240, ID: 846, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+	Unit: 6660, Capacity: 240, ID: 304, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+[Count = 8]
+[Hour = 20]
+	Unit: 4495, Capacity: 300, ID: 239, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 2861, Capacity: 300, ID: 807, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+	Unit: 7754, Capacity: 300, ID: 373, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 8897, Capacity: 300, ID: 668, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+	Unit: 3895, Capacity: 240, ID: 118, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+	Unit: 3922, Capacity: 240, ID: 341, Num of cars: 6, Passengers per car: 40, Operational Status: A, Operational Date: 20190304
+[Count = 6]
+[Hour = 21]
+	Unit: 4495, Capacity: 300, ID: 239, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 2861, Capacity: 300, ID: 807, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+	Unit: 7754, Capacity: 300, ID: 373, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 8897, Capacity: 300, ID: 668, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+[Count = 4]
+[Hour = 22]
+	Unit: 4495, Capacity: 300, ID: 239, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 2861, Capacity: 300, ID: 807, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+	Unit: 7754, Capacity: 300, ID: 373, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+[Count = 3]
+[Hour = 23]
+	Unit: 4495, Capacity: 300, ID: 239, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 2861, Capacity: 300, ID: 807, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+	Unit: 7754, Capacity: 300, ID: 373, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+[Count = 3]
+[Hour = 24]
+	Unit: 4495, Capacity: 300, ID: 239, Num of cars: 5, Passengers per car: 60, Operational Status: A, Operational Date: 20190304
+	Unit: 2861, Capacity: 300, ID: 807, Num of cars: 5, Passengers per car: 60, Operational Status: *, Operational Date: 20190304
+[Count = 2]
+[GoTrains]
+[Hour = 1]
+[Count = 0]
+[Hour = 2]
+[Count = 0]
+[Hour = 3]
+[Count = 0]
+[Hour = 4]
+[Count = 0]
+[Hour = 5]
+[Count = 0]
+[Hour = 6]
+	Unit: 3962, ID: G725, Capacity: 300
+[Count = 1]
+[Hour = 7]
+	Unit: 3962, ID: G725, Capacity: 300
+	Unit: 1320, ID: G771, Capacity: 280
+	Unit: 2769, ID: G909, Capacity: 250
+[Count = 3]
+[Hour = 8]
+	Unit: 3962, ID: G725, Capacity: 300
+	Unit: 1320, ID: G771, Capacity: 280
+	Unit: 2769, ID: G909, Capacity: 250
+	Unit: 6226, ID: G519, Capacity: 250
+[Count = 4]
+[Hour = 9]
+	Unit: 3962, ID: G725, Capacity: 300
+	Unit: 1320, ID: G771, Capacity: 280
+	Unit: 2769, ID: G909, Capacity: 250
+[Count = 3]
+[Hour = 10]
+	Unit: 3962, ID: G725, Capacity: 300
+[Count = 1]
+[Hour = 11]
+	Unit: 3962, ID: G725, Capacity: 300
+	Unit: 1320, ID: G771, Capacity: 280
+[Count = 2]
+[Hour = 12]
+	Unit: 3962, ID: G725, Capacity: 300
+	Unit: 1320, ID: G771, Capacity: 280
+[Count = 2]
+[Hour = 13]
+	Unit: 3962, ID: G725, Capacity: 300
+	Unit: 1320, ID: G771, Capacity: 280
+	Unit: 2769, ID: G909, Capacity: 250
+[Count = 3]
+[Hour = 14]
+	Unit: 3962, ID: G725, Capacity: 300
+[Count = 1]
+[Hour = 15]
+	Unit: 3962, ID: G725, Capacity: 300
+	Unit: 1320, ID: G771, Capacity: 280
+	Unit: 2769, ID: G909, Capacity: 250
+[Count = 3]
+[Hour = 16]
+	Unit: 3962, ID: G725, Capacity: 300
+	Unit: 1320, ID: G771, Capacity: 280
+	Unit: 2769, ID: G909, Capacity: 250
+[Count = 3]
+[Hour = 17]
+	Unit: 3962, ID: G725, Capacity: 300
+	Unit: 1320, ID: G771, Capacity: 280
+	Unit: 2769, ID: G909, Capacity: 250
+	Unit: 6226, ID: G519, Capacity: 250
+	Unit: 8499, ID: G416, Capacity: 240
+[Count = 5]
+[Hour = 18]
+	Unit: 3962, ID: G725, Capacity: 300
+[Count = 1]
+[Hour = 19]
+	Unit: 3962, ID: G725, Capacity: 300
+	Unit: 1320, ID: G771, Capacity: 280
+	Unit: 2769, ID: G909, Capacity: 250
+[Count = 3]
+[Hour = 20]
+	Unit: 3962, ID: G725, Capacity: 300
+	Unit: 1320, ID: G771, Capacity: 280
+	Unit: 2769, ID: G909, Capacity: 250
+[Count = 3]
+[Hour = 21]
+	Unit: 3962, ID: G725, Capacity: 300
+	Unit: 1320, ID: G771, Capacity: 280
+[Count = 2]
+[Hour = 22]
+	Unit: 3962, ID: G725, Capacity: 300
+[Count = 1]
+[Hour = 23]
+	Unit: 3962, ID: G725, Capacity: 300
+[Count = 1]
+[Hour = 24]
+	Unit: 3962, ID: G725, Capacity: 300
+[Count = 1]

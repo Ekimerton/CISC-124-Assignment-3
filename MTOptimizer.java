@@ -3,24 +3,45 @@ import java.util.*;
 
 public class MTOptimizer {
   public static void main(String[] args){
-    //ArrayList<Vehicle> buses = readFile("buses.txt");
-    Bus[] buses = readBuses();
-    GoBus[] gobuses = readGoBuses();
-    Streetcar[] streetcars = readStreetcars();
-    Subway[] subways = readSubways();
-    GoTrain[] gotrains = readGoTrains();
+    ArrayList<Bus> buses = readBuses();
+    ArrayList<GoBus> gobuses = readGoBuses();
+    ArrayList<Streetcar> streetcars = readStreetcars();
+    ArrayList<Subway> subways = readSubways();
+    ArrayList<GoTrain> gotrains = readGoTrains();
+    Collections.sort(buses);
+    Collections.sort(gobuses);
+    Collections.sort(streetcars);
+    Collections.sort(subways);
+    Collections.sort(gotrains);
 
     ArrayList<Rider> riders = parseRidership();
-
     int[][] capacityRequired = generateCapacityRequired(riders);
-    for(int i = 0; i < 24; i++){
-      System.out.println("Hour " + i + ": " + Arrays.toString(capacityRequired[i]));
+
+    String finalString = "";
+
+    finalString += (generateInOperationFleets(capacityRequired, buses, 0));
+    finalString += (generateInOperationFleets(capacityRequired, gobuses, 1));
+    finalString += (generateInOperationFleets(capacityRequired, streetcars, 2));
+    finalString += (generateInOperationFleets(capacityRequired, subways, 3));
+    finalString += (generateInOperationFleets(capacityRequired, gotrains, 4));
+
+    try{
+      BufferedWriter writer = new BufferedWriter(new FileWriter("InOperationFleets.txt"));
+      writer.write(finalString);
+      writer.flush();
+      writer.close();
+    } catch (Exception e){
+      System.out.println("Error in writing");
+      System.out.println(e);
     }
-    //ArrayList<Subway> subways = new ArrayList<Subway>();
-    //subways = Subway.sortByCapacity(subways);
-    parseRidership();
   }
 
+  /*
+  Pretty straight forward, creates an array of riders after reading the ridership.txt file, and writes invalid writers
+  onto errorship.txt. There are two errors to look for, the constructor returns an error because of mismatched
+  parameters, or the parameters are the right types, but their values are invalid in this project. The second type is
+  handled by Rider.validate().
+  */
   public static ArrayList<Rider> parseRidership(){
     ArrayList<Rider> riders = new ArrayList<Rider>();
     try{
@@ -76,34 +97,54 @@ public class MTOptimizer {
     }
     return capacityRequired;
   }
-/*
-  public static <T> ArrayList<T> readFile(String fileName, int fleetSize, T vehicle){
-    ArrayList<T> vehicles = new ArrayList<>();
-    System.out.println("Read from: " + fileName);
-    try{
-      BufferedReader reader = new BufferedReader(new FileReader(fileName));
-      for(int i = 0; i < fleetSize; i++){
-        String info = reader.readLine();
-        Class<T> vehicle = new Class<T>(info);
-        vehicles.add(vehicle);
-      }
-    } catch (Exception e){
-      System.out.println("Error in reading");
-      System.out.println(e);
-    }
-    return vehicles;
-  }
-*/
-  //Parsing the txt files into the vehicles
 
-  public static Bus[] readBuses(){
-    Bus[] buses = new Bus[50];
+  /*
+  This method is the piece de resistance of this whole project - It takes in the arrayLists of the vehicles (sorted by
+  capacity), and the int[][] capacityRequired, that shows the required capacities of a vehicle type at every hour.
+
+  The for loop goes through all the hours; 0 to 24. Then a while loop is entered, and the top entry from the array is
+  pulled, and subtracted from the capacityRequired. Since the arrays are sorted, this is the optimal way of filling
+  capacity.
+
+  It returns a string that is written to file in the main, instead of writing right away, to avoid calling the writer
+  too many times.
+  */
+  public static <T extends Vehicle> String generateInOperationFleets(int[][] capacityRequired, ArrayList<T> vehicles, int vehicleTypeNumber){
+
+    String[] vehicleTypes = {"Buses", "GoBuses", "Streetcars", "Subways", "GoTrains"};
+    String title = vehicleTypes[vehicleTypeNumber];
+
+    String toReturn = "";
+
+    toReturn += ("[" + title + "]" + "\n");
+    for(int i = 0; i < 24; i++){
+      toReturn += ("[Hour = " + (i+1) + "]" + "\n");
+      int capacityNeeded = capacityRequired[i][vehicleTypeNumber];
+      int count = 0;
+      while(capacityNeeded > 0){
+        capacityNeeded -= vehicles.get(count).getCapacity();
+        toReturn += ("\t" + vehicles.get(count).toString() + "\n");
+        count++;
+      }
+      toReturn += ("[Count = " + count + "]" + "\n");
+    }
+    return toReturn;
+  }
+
+  /*
+  All of the methods below do the same thing; read the file for a transportation type, and fills an ArrayList full of
+  that vehicle. I assume this could have been done with generics, but I couldn't figure out how, since instantiating
+  an object was required. All of these methods are equal, so replacing the word "Buses" with "Subways" gives you the
+  same method.
+  */
+  public static ArrayList<Bus> readBuses(){
+    ArrayList<Bus> buses = new ArrayList<Bus>();
     try{
       BufferedReader reader = new BufferedReader(new FileReader("buses.txt"));
       for(int i = 0; i < 50; i++){
         String info = reader.readLine();
         Bus bus = new Bus(info);
-        buses[i] = bus;
+        buses.add(bus);
       }
     } catch (Exception e){
       System.out.println("Error in readBuses:");
@@ -113,14 +154,14 @@ public class MTOptimizer {
   }
 
 
-  public static GoBus[] readGoBuses(){
-    GoBus[] gobuses = new GoBus[15];
+  public static ArrayList<GoBus> readGoBuses(){
+    ArrayList<GoBus> gobuses = new ArrayList<GoBus>();
     try{
       BufferedReader reader = new BufferedReader(new FileReader("gobuses.txt"));
       for(int i = 0; i < 15; i++){
         String info = reader.readLine();
         GoBus gobus = new GoBus(info);
-        gobuses[i] = gobus;
+        gobuses.add(gobus);
       }
     } catch (Exception e){
       System.out.println("Error in readGoBuses:");
@@ -129,15 +170,14 @@ public class MTOptimizer {
     return gobuses;
   }
 
-  public static Streetcar[] readStreetcars(){
-    Streetcar[] streetcars = new Streetcar[30];
+  public static ArrayList<Streetcar> readStreetcars(){
+    ArrayList<Streetcar> streetcars = new ArrayList<Streetcar>();
     try{
       BufferedReader reader = new BufferedReader(new FileReader("streetcars.txt"));
       for(int i = 0; i < 30; i++){
         String info = reader.readLine();
         Streetcar streetcar = new Streetcar(info);
-        streetcars[i] = streetcar;
-
+        streetcars.add(streetcar);
       }
     } catch (Exception e){
       System.out.println("Error in readStreetcars:");
@@ -146,15 +186,14 @@ public class MTOptimizer {
     return streetcars;
   }
 
-  public static Subway[] readSubways(){
-    Subway[] subways = new Subway[20];
+  public static ArrayList<Subway> readSubways(){
+    ArrayList<Subway> subways = new ArrayList<Subway>();
     try{
       BufferedReader reader = new BufferedReader(new FileReader("subways.txt"));
       for(int i = 0; i < 20; i++){
         String info = reader.readLine();
         Subway subway = new Subway(info);
-        subways[i] = subway;
-
+        subways.add(subway);
       }
     } catch (Exception e){
       System.out.println("Error in readSubways:");
@@ -163,14 +202,14 @@ public class MTOptimizer {
     return subways;
   }
 
-  public static GoTrain[] readGoTrains(){
-    GoTrain[] gotrains = new GoTrain[10];
+  public static ArrayList<GoTrain> readGoTrains(){
+    ArrayList<GoTrain> gotrains = new ArrayList<GoTrain>();
     try{
       BufferedReader reader = new BufferedReader(new FileReader("gotrains.txt"));
       for(int i = 0; i < 10; i++){
         String info = reader.readLine();
         GoTrain gotrain = new GoTrain(info);
-        gotrains[i] = gotrain;
+        gotrains.add(gotrain);
       }
     } catch (Exception e){
       System.out.println("Error in readBuses:");
